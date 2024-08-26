@@ -1,0 +1,50 @@
+.searchbar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.inputbar{
+    margin: 10px;
+    width: 20rem;
+    height: 2.2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(190, 171, 171, 0.9); /* Semi-transparent white background */
+    padding: 0 10px; /* Add padding for text input */
+}
+
+.input::placeholder {
+    color: #888; /* Placeholder text color */
+  }
+
+.buttonstyle {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg, #6200ea, #3700b3); /* Gradient background */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease; /* Smooth transition */
+  }
+  
+  .buttonstyle:hover {
+    background: linear-gradient(45deg, #3700b3, #6200ea); /* Reversed gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge button */
+  }
+  
+  .buttonstyle:active {
+    background: linear-gradient(45deg, #6200ea, #3700b3); /* Reversed gradient on click */
+    transform: scale(0.98); /* Slightly shrink button on click */
+  }

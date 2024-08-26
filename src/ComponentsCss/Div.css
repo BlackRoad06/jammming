@@ -1,0 +1,19 @@
+.outercontainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .innercontainer {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../photo-1519638399535-1b036603ac77.avif"); /* Background image */
+    background-size: cover;           /* Ensure the image covers the container */
+    background-position: center;      /* Center the background image */
+    height: 100vh;
+    width: 70%;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px;
+    color: white;                     /* Text color for contrast */
+  }
+  
